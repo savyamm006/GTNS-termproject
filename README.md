@@ -1,4 +1,4 @@
-# Stable Matching — Python Implementation
+# Stable Matching: Python Implementation
 **CS-4231-1 Graph Theory and Network Science | Term Paper**
 
 Supplementary code for the paper:
