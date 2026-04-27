@@ -19,14 +19,14 @@ print("  Stable Matching — Running All Experiments")
 print("="*60)
 
 for name, script in EXPERIMENTS:
-    print(f"\n▶  {name}")
+    print(f"\n  {name}")
     print("-"*60)
     result = subprocess.run(
         [sys.executable, os.path.join(root, script)],
         cwd=root
     )
     if result.returncode != 0:
-        print(f"\n✗ {name} FAILED (exit code {result.returncode})")
+        print(f"\n {name} FAILED (exit code {result.returncode})")
         sys.exit(1)
 
 print("\n" + "="*60)
